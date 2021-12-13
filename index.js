@@ -45,7 +45,7 @@ client.distube
             .setColor(color)
             .setDescription(`Added **[${song.name}](${song.url})** - [${song.user}] \`[${song.formattedDuration}]\` to the queue`)
             .setThumbnail(song.thumbnail)
-            .setFooter(`Music | \©️${new Date().getFullYear()} ${client.config.foot}`);
+            .setFooter(`Music | \©️${new Date().getFullYear()} ${client.user.username}`);
         message.channel.send(embed);
     })
     .on("empty", message => {
@@ -80,7 +80,7 @@ client.distube
             .setColor(color)
             .setDescription(`Play **${playlist.name}** playlist (${playlist.songs.length} songs)\nNow playing **[${song.name}](${song.url})** [${song.user}] - \`[${song.formattedDuration}]\``)
             .setThumbnail(playlist.thumbnail)
-            .setFooter(`Music | \©️${new Date().getFullYear()} ${client.config.foot}`);
+            .setFooter(`Music | \©️${new Date().getFullYear()} ${client.user.username}`);
         message.channel.send(embed);
     })
     .on("playSong", (message, queue, song) => {
@@ -88,7 +88,7 @@ client.distube
             .setColor(color)
             .setDescription(`Started Playing **[${song.name}](${song.url})** - [${song.user}] \`[${song.formattedDuration}]\``)
             .setThumbnail(song.thumbnail)
-            .setFooter(`Music | \©️${new Date().getFullYear()} ${client.config.foot}`);
+            .setFooter(`Music | \©️${new Date().getFullYear()} ${client.user.username}`);
         message.channel.send(embed);
     })
     // DisTubeOptions.searchSongs = true
