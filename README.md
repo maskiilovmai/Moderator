@@ -1,6 +1,6 @@
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/brblacky/ALi)
-[![Run on Repl.it](https://repl.it/badge/github/brblacky/ALi)](https://repl.it/github/brblacky/ALi)
-[![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/brblacky/ALi)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/maskiilovmai/Moderator)
+[![Run on Repl.it](https://repl.it/badge/github/brblacky/ALi)](https://repl.it/github/maskiilovmai/Moderator)
+[![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/maskiilovmai/Moderator)
 
 
 [![Version][version-shield]](version-url)
@@ -9,23 +9,23 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-<center><img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=ALi%20Moderator&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=gradient" /></center>
+<center><img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Moderator&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=gradient" /></center>
 
 
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/brblacky/ALi">
-    <img src="https://media.discordapp.net/attachments/841728122633715743/867392701997908008/uwp1269208-01.jpeg" alt="Pbot-plus" width="200" height="200">
+  <a href="https://github.com/maskiilovmai/Moderator">
+    <img src="https://cdn.discordapp.com/attachments/911715309990342737/919869826837659658/1c54f7b06d7723c21afc5035bf88a5ef.png" alt="Pbot-plus" width="200" height="200">
   </a>
 
-  <h3 align="center">ALi</h3>
+  <h3 align="center">Moderator</h3>
 
   <p align="center">
-    ALi a powerful Discord Bot
+    Moderator a powerful Discord Bot
     <br />
     <br />
-    <a href="https://discord.com/api/oauth2/authorize?client_id=841716414053351486&permissions=8&scope=bot">Invite ALi</a>
+    <a href="https://discord.com/api/oauth2/authorize?client_id=906978883604209685&permissions=8&scope=bot">Invite Moderator</a>
     ·
     <a href="https://github.com/brblacky/ALi/issues">Report Bug</a>
     ·
