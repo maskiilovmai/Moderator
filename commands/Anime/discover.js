@@ -26,7 +26,7 @@ module.exports = {
     .setDescription(`**${message.member.displayName}**, Please specify if it's \`ANIME\` or \`MANGA\`.`)
     .setAuthor('Unrecognized Category!','https://cdn.discordapp.com/emojis/767062250279927818.png?v=1')
     .setThumbnail('https://i.imgur.com/qkBQB8V.png')
-    .setColor('RED')
+    .setColor('RANDOM')
     .setFooter(`Discover | \©️${new Date().getFullYear()} ${client.user.username}`);
 
     if (!category || !['anime','manga'].includes(category)){
@@ -68,7 +68,7 @@ module.exports = {
 
     const discoveryPages = new Paginate(
       new MessageEmbed()
-      .setColor(color)
+      .setColor('RANDOM')
       .setTitle(`Get Random ${topic} Recommendations with your Discovery Queue!`)
       .setThumbnail(message.author.displayAvatarURL({ format: 'png', dynamic: true }))
       .setDescription([
@@ -89,7 +89,7 @@ module.exports = {
         },
         {
           name: '\u200b',
-          value: 'Start Your Queue by clicking <:next:767062244034084865> below!!'
+          value: 'Start Your Queue by clicking ➡ below!!'
         }
       ])
     );
@@ -97,7 +97,7 @@ module.exports = {
     for (const info of data){
       discoveryPages.add(
         new MessageEmbed()
-        .setColor(info.coverImage.color || color)
+        .setColor(info.coverImage.color || 'RANDOM')
         .setAuthor([
           profile[category].genres[index],
           text.truncate(info.title.romaji || info.title.english || info.title.native),
@@ -148,7 +148,7 @@ module.exports = {
     };
 
     const discoveryPrompt = await message.channel.send(discoveryPages.currentPage);
-    const next = client.emojis.cache.get('767062244034084865') || '▶';
+    const next = client.emojis.cache.get('767062244034084865') || '➡';
     const filter = (_, user) => user.id === message.author.id;
     const collector = discoveryPrompt.createReactionCollector(filter);
 

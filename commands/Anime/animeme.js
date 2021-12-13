@@ -31,7 +31,7 @@ module.exports = {
       await reloadMeme(memes, message);
 
       if (!memes.size){
-        return message.channel.send( new MessageEmbed().setDescription(`${em.error} | Could not fetch memes from <:reddit:767062345422864394> [Reddit](https://reddit.com/r/animemes)! Please report this to the bot owner. The API might be down or there might be changes on the API itself.`));
+        return message.channel.send( new MessageEmbed().setDescription(`${em.error} | Could not fetch memes from <:Reddit:919803880974471179> [Reddit](https://reddit.com/r/animemes)! Please report this to the bot owner. The API might be down or there might be changes on the API itself.`));
       };
 
       const data = memes.first()
@@ -54,7 +54,7 @@ module.exports = {
           .setThumbnail('https://i.imgur.com/qkBQB8V.png')
           .setFooter(`Animeme | \©️${new Date().getFullYear()} ${client.user.username}`)
           .setDescription(
-            `**${message.member.displayName}**, I could not fetch memes from <:reddit:767062345422864394> [r/animemes](https://reddit.com/r/animemes)!\n\n`
+            `**${message.member.displayName}**, I could not fetch memes from <:Reddit:919803880974471179> [r/animemes](https://reddit.com/r/animemes)!\n\n`
               + 'Please report this to the bot owner. The API might be down or there might be changes on the API itself.'
             )
           );
@@ -93,7 +93,7 @@ async function reloadMeme(memes,message){
 
 function embedMeme({ title, ups, downs, link, image, timestamp }){
   return new MessageEmbed()
-  .setColor("#8000ff")
+  .setColor("RANDOM")
   .setTitle(title)
   .setURL(link)
   .setImage(image)
