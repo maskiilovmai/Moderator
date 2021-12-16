@@ -37,16 +37,16 @@ module.exports = {
           value: [
             `Found some bugs? Do you feel you can fix it yourself? Contribute to ${client.user.username}\'s repository`,
             '[here](https://github.com/brblacky/ALi) by creating an issue or making a reasonable',
-            'pull request. While you\'re at it please follow <@491577179495333903>, Venom#9718 and/or add a star to',
+            'pull request. While you\'re at it please follow <@491577179495333903>, <@767393101241122826> and/or add a star to',
             'the repository.'
           ].join(' ')
         },{
           name: 'Collaborate.',
           value: [
             `As of the moment, there are no dedicated collaborators for the production of ${client.user.username}, and maintaining`,
-            'the bot has been done solely by <@491577179495333903>, Venom#9718. This is the reason why some fix updates take',
+            'the bot has been done solely by <@491577179495333903>, <@767393101241122826>. This is the reason why some fix updates take',
             'longer than anticipated. If you are confident and active enough to help maintain the code, you',
-            'may [join](https://discord.gg/gfcv94hDhv) Blacky\'s support server and contact <@491577179495333903>, Venom#9718 from there.'
+            'may [join](https://discord.gg/gfcv94hDhv) Blacky\'s support server and contact <@491577179495333903>, <@767393101241122826> from there.'
           ].join(' ')
         },{
           name: `Invite Bot`,
