@@ -7,6 +7,8 @@ const Client = require(`${process.cwd()}/struct/Alina`);
 const config = require(`${process.cwd()}/config`);;
 const client = new Client(config);
 
+const keepAlive = require("./server")
+
 require("discord-buttons")(client);
 const https = require('https-proxy-agent');
 const proxy = 'http://123.123.123.123:8080';
@@ -134,3 +136,6 @@ client.listentoProcessEvents([
 ], { ignore: false });
 
 client.login();
+
+
+keepAlive()
