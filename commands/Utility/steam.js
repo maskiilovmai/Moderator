@@ -21,7 +21,7 @@ module.exports = {
   run: async (client, message, args) => {
 
     const { color } = client.config;
-    const query = args.join(' ') || 'Doki Doki Literature Club';
+    const query = args.join(' ') || 'Left 4 Dead 2';
 
     const res = await fetch(`https://store.steampowered.com/api/storesearch/?cc=us&l=en&term=${encodeURI(query)}`)
     .then(res => res.json())

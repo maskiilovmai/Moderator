@@ -13,8 +13,9 @@ module.exports = {
   ],
   run: async (client, message) => message.channel.send(
     new MessageEmbed()
-    .setColor("#fd35d3")
+    .setColor("RANDOM")
     .setAuthor(`♨️ ${message.guild.name} Server Information`, message.guild.iconURL())
+    .setThumbnail(message.guild.iconURL())
     .setFooter(`Server | ©️${new Date().getFullYear()} ${client.user.username}`)
     .addFields([
       {
